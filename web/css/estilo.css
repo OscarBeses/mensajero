@@ -1,0 +1,100 @@
+/* --------- GENERAL --------- */
+html {
+	min-height: 100%;
+	background: linear-gradient(to bottom right, #5485cd, #67b1ba);
+}
+body *{
+	font-family: 'Arial';
+}
+header {
+	padding: 30px 0 0;
+}
+main{
+	width: 90%;
+	min-width: 500px;
+	max-width: 1100px;
+	margin: 4% auto 0 auto;
+}
+h1, h2, h3 {
+	text-align: center
+}
+/*----------------BOTONES-------------------*/
+button{
+	width: 100%;
+	cursor: pointer;
+	text-transform: uppercase;
+	background: #4CAF50;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	transition: background-color 0.5s ease-out;
+}
+button[type='submit']:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*----------------FOTO-------------------*/
+img  {
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin: auto;
+}
+/*----------------LOGIN-------------------*/
+.cuadroBlanco{
+	margin: 50px 0;
+	min-width: 300px;
+	position: relative;
+	background: #dadada;
+	padding: 30px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.estrecho {
+	width: 360px;
+	margin: 4% auto 0 auto;
+}
+.centrado {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+input, textarea {
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+	margin: 15px 0;
+}
+
+/* MENSAJES */
+#mensajes{
+	width: 100%;
+	margin: 0 auto;
+}
+#mensajes th  {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #c0c0c0;
+}
+#mensajes caption {
+	text-transform: uppercase;
+	color: #0080c0;
+	text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+	font-weight: bold;
+	border-radius: 20px;
+	margin: 10px;
+}
+.td-bajo{
+	border-bottom: 1px solid grey;
+}
+/* FOOTER */
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
